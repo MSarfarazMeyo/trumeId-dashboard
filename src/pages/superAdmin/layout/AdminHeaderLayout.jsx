@@ -61,12 +61,12 @@ const AdminHeaderLayout = () => {
   );
 
   return (
-    <div className="min-h-screen min-w-screen flex flex-col">
+    <div className="min-h-screen min-w-screen flex flex-col" style={{}}>
       {/* Sidebar */}
       <div
         className=" flex  justify-between gap-4   min-w-[100%] h-[80px] items-center px-16  "
         style={{
-          color: colors.primaryDark,
+          background: colors.primaryDark,
         }}
       >
         <div className="flex gap-6 items-center">
